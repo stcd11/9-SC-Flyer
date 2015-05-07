@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<title>Mathematics for Electronics</title>
+<title>The Delport Flyer</title>
 <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta  name="generator" content="Org-mode" />
 <style type="text/css">
@@ -137,277 +137,185 @@ for the JavaScript code in this tag.
 </head>
 <body>
 <div id="content">
-<h1 class="title">Mathematics for Electronics</h1>
-<div id="table-of-contents">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents">
-<ul>
-<li><a href="#sec-1">1. Introduction</a>
-<ul>
-<li><a href="#sec-1-1">Ohm's Law</a></li>
-<li><a href="#sec-1-2">Electrical Power</a></li>
-<li><a href="#sec-1-3">Resistors in Series</a></li>
-<li><a href="#sec-1-4">Potential Divider</a></li>
-</ul>
-</li>
-<li><a href="#sec-2">2. Understanding Check</a>
-<ul>
-<li><a href="#sec-2-1">Sample Questions</a></li>
-<li><a href="#sec-2-2">Past Paper Questions</a></li>
-</ul>
-</li>
-</ul>
-</div>
-</div>
-<div class=ribbon>
-<a href="https://github.com/stsb11/gcse_theory">Fork me on GitHub</a>
-</div>
-<center>
-<imgzz src='' width=33%>
-</center>
+<h1 class="title">The Delport Flyer</h1>
+
 
 <div id="outline-container-sec-1" class="outline-2 activity">
-<h2 id="sec-1"><span class="section-number-2">1</span> Introduction</h2>
+<h2 id="sec-1"><span class="section-number-2">1</span> Motors</h2>
 <div class="outline-text-2" id="text-1">
-<ul class="org-ul">
-<li>To be successful at electronics, you only need a small number of equations. 
-</li>
-</ul>
 </div>
 <div id="outline-container-sec-1-1" class="outline-3 learn">
-<h3 id="sec-1-1">Ohm's Law</h3>
+<h3 id="sec-1-1">Learn It</h3>
 <div class="outline-text-3" id="text-1-1">
 <ul class="org-ul">
-<li><b>V = IR</b>
+<li>There are many different forms of energy.
 </li>
-<li><b>V</b> is Voltage, measured in Volts,
+<li>When you pick up a ball, you give it what is known as Gravitational Potential Energy.
 </li>
-<li><b>I</b> is current, measured in Amperes (Amps for short),
+<li>When you drop it, the Gravitational Potential Energy is converted to Kinetic Energy (movement). In other words, the ball falls.
 </li>
-<li><b>R</b> is resistance, measured in Ohms (&Omega;).
+<li>Other types of energy are:
+<ol class="org-ol">
+<li>Electrical Energy
+</li>
+<li>Nuclear Energy
+</li>
+<li>Thermal Energy (Heat)
+</li>
+<li>Light Energy
+</li>
+<li>Chemical Energy (Fuel)
+</li>
+<li>Elastic Potential Energy. 
+</li>
+<li>Sound Energy
+</li>
+</ol>
 </li>
 </ul>
-
-<p>
-<span class="underline">Example</span>
-According to its datasheet, an LED can take a maximum of 3V, and has a safe current of up to 20mA. If powered by a 6v battery, what size resistor will be needed to protect it?
-</p>
-
-<p>
-Let’s aim for 2.5V and 20mA, to ensure we don’t have any problems. If we have 6V in the circuit, we need the resistor to remove <b>3.5V</b> (6 - 2.5) from the circuit, leaving 2.5V for the LED. We can then say that…
-</p>
-
-<p>
-V=3.5
-</p>
-
-<p>
-I=0.02
-</p>
-
-<p>
-Re-arranging the formula gives R = V / I
-</p>
-
-<p>
-Therefore R = 3.5 / 0.02 = <b>175Ω</b>
-</p>
-
-<p>
-As an aside, it turns out that 175Ω isn’t a standard resistor size we can buyfrom a shop, so we go to the next largest size, which is 180Ω (220Ω would also work well).
-</p>
 </div>
 </div>
-
 <div id="outline-container-sec-1-2" class="outline-3 learn">
-<h3 id="sec-1-2">Electrical Power</h3>
+<h3 id="sec-1-2">Learn It</h3>
 <div class="outline-text-3" id="text-1-2">
-<p>
-<b>P = VI</b>   
-</p>
-
 <ul class="org-ul">
-<li>Power (Watts) = Voltage x Current
+<li>Certain devices can convert one form of energy to another.
+<ul class="org-ul">
+<li>A solar panel can convert light energy to electrical energy.
+</li>
+<li>A wind turbine converts kinetic energy to electrical energy.
+</li>
+<li>A fire converts chemical energy to light and heat energy.
 </li>
 </ul>
-
-<p>
-<span class="underline">Example</span>
-Is a 0.25W resistor adequate for the example above? 
-</p>
-
-<p>
-The amount of power the resistor has to dissipate can be calculated as… 
-</p>
-
-<p>
-P = 3.5 x 0.02 = <b>0.07W</b>
-</p>
-
-<ul class="org-ul">
-<li>Since the resistor can dissipate up to 0.25W, this resistor could safely handle the current from up to three LEDs. 
+</li>
+<li>In this project you can use a motor. An eclectic motor can convert electrical energy to kinetic energy.
 </li>
 </ul>
 </div>
 </div>
-
-<div id="outline-container-sec-1-3" class="outline-3 learn">
-<h3 id="sec-1-3">Resistors in Series</h3>
+<div id="outline-container-sec-1-3" class="outline-3 badge">
+<h3 id="sec-1-3">Badge It - Silver</h3>
 <div class="outline-text-3" id="text-1-3">
-<p>
-To calculate the overall resistance achieved when connecting together resistors in series, we add them together. E.g.
-</p>
-
-<p>
-R<sub>T</sub> = R<sub>1</sub> + R<sub>2</sub>
-</p>
-
-<p>
-<span class="underline">Example</span> Two resistors are connected together in series in a circuit. The colour codes on the first resistor is green, blue, black, gold. The colour code on the second resistor has been rubbed off. When a multi-meter is placed across both resistors, the meter reads 276Ω. What is the resistance of the unmarked resistor?
-</p>
-
-<p>
-276 = 56 + R<sub>2</sub>
-</p>
-
-<p>
-R<sub>2</sub> = 276 - 56 = 220Ω
-</p>
+<ul class="org-ul">
+<li>Describe the energy conversions that happen in the following systems. Use the web to help you.
+<ol class="org-ol">
+<li>A Battery
+</li>
+<li>An LED
+</li>
+<li>A Buzzer
+</li>
+<li>A Dynamo
+</li>
+<li>A Television.
+</li>
+</ol>
+</li>
+</ul>
 </div>
 </div>
-
 <div id="outline-container-sec-1-4" class="outline-3 learn">
-<h3 id="sec-1-4">Potential Divider</h3>
+<h3 id="sec-1-4">Learn It</h3>
 <div class="outline-text-3" id="text-1-4">
 <ul class="org-ul">
-<li>The potential divider setup allows electronic engineers to create different voltage levels in a circuit. This can be useful when connecting analogue components to a PIC. 
+<li>An electric motor converts, electrical energy into kinetic energy.
+</li>
+<li>It achieves this by the use of magnets.
+</li>
+<li>Look at the diagram below.
 </li>
 </ul>
-<p>
-<img src="./img/pot_div.png" alt="pot_div.png" />
-V<sub>1</sub> = (R<sub>1</sub> / (R<sub>1</sub> + R<sub>2</sub>)) x Supply voltage (V<sub>S</sub>)
-</p>
 
-<p>
-V<sub>2</sub> = (R<sub>2</sub> / (R<sub>1</sub> + R<sub>2</sub>)) x Supply Voltage (V<sub>S</sub>)
-</p>
-
-<p>
-<span class="underline">Example</span> A 9V battery supplies a potential divider.  Two 1kΩ resistors are used. What is the voltage at V<sub>1</sub>?
-</p>
-
-<p>
-V<sub>1</sub> = (1000 / (1000+1000)) x 9
-</p>
-
-<p>
-V<sub>1</sub> = (1000 / 2000) x 9
-</p>
-
-<p>
-V<sub>1</sub> = (0.5) x 9 = 4.5V 
+<div class="figure">
+<p><img src="img/lorentz.jpg" alt="lorentz.jpg" />
 </p>
 </div>
-</div>
-</div>
-
-<div id="outline-container-sec-2" class="outline-2 activity">
-<h2 id="sec-2"><span class="section-number-2">2</span> Understanding Check</h2>
-<div class="outline-text-2" id="text-2">
-</div>
-<div id="outline-container-sec-2-1" class="outline-3 try">
-<h3 id="sec-2-1">Sample Questions</h3>
-<div class="outline-text-3" id="text-2-1">
 <ul class="org-ul">
-<li>A 9v DC motor motor rated at 0.673A is to be powered by a 12V supply. What size resistor should be used to make it run at it’s maximum speed?
+<li>When an electric current passes through a wire, that is inside a magnetic filed, the wire experiences a force that will move it.
 </li>
-
-<li>A 60W lightbulb in a house is running on a standard 230V AC power supply. How much current does it draw?
+<li>In the diagram above:
+<ol class="org-ol">
+<li>the direction of the magnetic field is from right to left (always N to S).
 </li>
-
-<li>UK fuses can be 1A, 3A, 5A or 13A. This refers to how much current can be drawn through the fuse without it “blowing”. What size fuse should be fitted to a 1600W hairdryer?
+<li>the direction of the current is going into the screen.
 </li>
-
-<li>A circuit being designed has a 12V supply, but needs a 3V rail, to be made with a potential divider. Suggest two resistor values that could provide this, and confirm it in circuit wizard.
+<li>the force on the wire is upwards.
 </li>
-
-<li>What’s the overall resistance achieved by connecting together 3x 100Ω resistors in series in a circuit?
+</ol>
 </li>
 </ul>
 </div>
 </div>
+<div id="outline-container-sec-1-5" class="outline-3 badge">
+<h3 id="sec-1-5">Badge It - Gold</h3>
+<div class="outline-text-3" id="text-1-5">
+<ul class="org-ul">
+<li>If the magnetic field direction is switched, or the direction of current is switched, the force on the wire will also be switched.
+</li>
+<li>Download the image below and then annotate it to show:
+<ol class="org-ol">
+<li>the direction of the magnetic field.
+</li>
+<li>the direction of the current (remember that current flows from positive to negative)
+</li>
+<li>The direction of the force(s) on the wire.
+</li>
+</ol>
+</li>
+</ul>
 
-<div id="outline-container-sec-2-2" class="outline-3 try">
-<h3 id="sec-2-2">Past Paper Questions</h3>
-<div class="outline-text-3" id="text-2-2">
-<p>
-<b>June 2010, Q3c</b>. The following circuit diagram shows a simple potential divider light sensor circuit. 
-<img src="./img/2010_q3c.png" alt="2010_q3c.png" />
-(i) Name the component labelled R1. <i>(1 mark)</i>
-(ii) Name the component labelled R2. <i>(1 mark)</i>
-(iii) Calculate the output voltage when R1 is 1K, R2 is 2K and the supply voltage is 9V.
+<div class="figure">
+<p><img src="img/lorentz2.jpg" alt="lorentz2.jpg" />
 </p>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-1-6" class="outline-3 learn">
+<h3 id="sec-1-6">Learn It</h3>
+<div class="outline-text-3" id="text-1-6">
+<ul class="org-ul">
+<li>The opposing forces on a loop of current carrying wire, in a magnetic field,  cause the loop to want to turn.
+</li>
+<li>If we increase the number of loops, so that we have a coil of wire, we can increase the force and so make the coils turn even faster.
+</li>
+<li>Look at the diagram below. The magnets are almost semi-circles, and there are many coils of wire.
+</li>
+</ul>
 
-<p>
-Formula: 
+<div class="figure">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Electric_motor_cycle_2.png" alt="Electric_motor_cycle_2.png" />
 </p>
+</div>
+<ul class="org-ul">
+<li>A set up look this is what is contained in normal electric motors. By attaching the coils of wire to an axle, we can make the axle spin.
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-1-7" class="outline-3 research">
+<h3 id="sec-1-7">Research It</h3>
+<div class="outline-text-3" id="text-1-7">
+<ul class="org-ul">
+<li>The type of motor shown in the image above, is a brushed DC motor.
+</li>
+<li>Use the web to find out what is meant by <code>DC</code>.
+</li>
+<li>Use the web to find out what <code>brushes</code> in electric motors are for.
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-sec-1-8" class="outline-3 badge">
+<h3 id="sec-1-8">Badge It - Platinum</h3>
+<div class="outline-text-3" id="text-1-8">
 
-<p>
-Working: 
-</p>
-
-<p>
-Answer with units: 
-</p>
-
-<p>
-<i>(4 marks)</i>
-</p>
-
-<p>
-<b>June 2012, Q6b</b>. Calculate the value of the total resistance of the following resistors in series.
-<img src="./img/2012_q6b.png" alt="2012_q6b.png" />
-Formula: 
-</p>
-
-<p>
-Calculation: 
-</p>
-
-<p>
-Answer:
-</p>
-
-<p>
-<i>(4 marks)</i>
-</p>
-
-
-<p>
-<b>June 2012, Q6d</b>. The circuit below is a light sensor. The resistance of the LDR is 5KΩ and the resistance of the fixed resistor is 10KΩ.
-<img src="./img/2012_q6d.png" alt="2012_q6d.png" />
-Calculate the output voltage (V2) when Vs is 9 Volts.
-</p>
-
-<p>
-Formula: 
-</p>
-
-<p>
-Calculation: 
-</p>
-
-<p>
-Answer:
-</p>
-
-<p>
-<i>(4 marks)</i>
-</p>
-
-<p>
-<a href="index.html">Return to homepage</a>
-</p>
+<ul class="org-ul">
+<li>Write up a short summary of how <code>brushes</code> work to allow an almost continuous flow of current through the wire coil, inside an electric motor.
+</li>
+<li>Make sure you include at least one diagram, to help with your explanation.
+</li>
+</ul>
 </div>
 </div>
 </div>
