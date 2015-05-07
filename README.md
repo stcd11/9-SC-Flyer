@@ -1,2 +1,4 @@
-# delport_flyer
-KS3 Delport Flyer project
+gcse_theory
+===========
+
+GCSE Theory Notes for Systems and Control
