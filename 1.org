@@ -110,7 +110,9 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 :HTML_CONTAINER_CLASS: learn
 :END:
 - Electric cars are increasingly talked about in the media. In this unit, we will look at why they are gaining popularity, the theory behind how electric vehicles work, and you will make and refine your own drag racer.
-- To help us understand the present (and to look to the future) we must first look at the past. 
+- To help us understand the present (and to look to the future) we must first look at the past. Many people think that electric cars are a 21st century idea, but this isn't the case.
+[[./img/elec_car_1913.jpg]]
+- The picture above is of [[http://en.wikipedia.org/wiki/Thomas_Edison][Thomas Edison]] standing next to a [[http://en.wikipedia.org/wiki/Detroit_Electric][Detroit Electric model 47]] in 1914. 
 - Go online, and see if you can find the first commercially produced electric car.
 
 ** Badge It - Silver
@@ -120,7 +122,6 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 - Draw a basic timeline of the history of the electric car, including significant dates. 
 - State the sources of your information and try to use more than one site.
 - Add pictures and short explanations to your timeline of what happened at each point.
-
 ** Learn It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
