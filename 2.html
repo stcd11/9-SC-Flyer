@@ -134,6 +134,48 @@ for the JavaScript code in this tag.
  }
 /*]]>*///-->
 </script>
+<script type="text/javascript" src="http://orgmode.org/mathjax/MathJax.js"></script>
+<script type="text/javascript">
+<!--/*--><![CDATA[/*><!--*/
+    MathJax.Hub.Config({
+        // Only one of the two following lines, depending on user settings
+        // First allows browser-native MathML display, second forces HTML/CSS
+        //  config: ["MMLorHTML.js"], jax: ["input/TeX"],
+            jax: ["input/TeX", "output/HTML-CSS"],
+        extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js",
+                     "TeX/noUndefined.js"],
+        tex2jax: {
+            inlineMath: [ ["\\(","\\)"] ],
+            displayMath: [ ['$$','$$'], ["\\[","\\]"], ["\\begin{displaymath}","\\end{displaymath}"] ],
+            skipTags: ["script","noscript","style","textarea","pre","code"],
+            ignoreClass: "tex2jax_ignore",
+            processEscapes: false,
+            processEnvironments: true,
+            preview: "TeX"
+        },
+        showProcessingMessages: true,
+        displayAlign: "center",
+        displayIndent: "2em",
+
+        "HTML-CSS": {
+             scale: 100,
+             availableFonts: ["STIX","TeX"],
+             preferredFont: "TeX",
+             webFont: "TeX",
+             imageFont: "TeX",
+             showMathMenu: true,
+        },
+        MMLorHTML: {
+             prefer: {
+                 MSIE:    "MML",
+                 Firefox: "MML",
+                 Opera:   "HTML",
+                 other:   "HTML"
+             }
+        }
+    });
+/*]]>*///-->
+</script>
 </head>
 <body>
 <div id="content">
@@ -142,10 +184,17 @@ for the JavaScript code in this tag.
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#sec-1">1. Introduction</a></li>
-<li><a href="#sec-2">2. Coming Soon!</a>
+<li><a href="#sec-1">1. Introduction</a>
 <ul>
-<li><a href="#sec-2-1">Placeholder text&#x2026;</a></li>
+<li><a href="#sec-1-1">Calculating Speed</a></li>
+<li><a href="#sec-1-2">Wheel Choices&#x2026;</a></li>
+<li><a href="#sec-1-3">Badge it - Silver</a></li>
+</ul>
+</li>
+<li><a href="#sec-2">2. Design</a>
+<ul>
+<li><a href="#sec-2-1">Techsoft 2D Designs</a></li>
+<li><a href="#sec-2-2">Badge it - Gold</a></li>
 </ul>
 </li>
 </ul>
@@ -158,27 +207,104 @@ for the JavaScript code in this tag.
 <imgzz src='' width=33%>
 </center>
 
-<div id="outline-container-sec-1" class="outline-2">
+<div id="outline-container-sec-1" class="outline-2 activity">
 <h2 id="sec-1"><span class="section-number-2">1</span> Introduction</h2>
 <div class="outline-text-2" id="text-1">
 <ul class="org-ul">
-<li>Pulleys will affect how quickly your racer can travel.
+<li>The drag racer has a pulley system which drives the rear wheels from the electric motor. 
+</li>
+</ul>
+</div>
+<div id="outline-container-sec-1-1" class="outline-3 try it">
+<h3 id="sec-1-1">Calculating Speed</h3>
+<div class="outline-text-3" id="text-1-1">
+<p>
+We can now look at the circumference of a wheel you could choose to calculate the speed at which your racer could travel. 
+</p>
+
+<ul class="org-ul">
+<li>The diameter of the wheel X Pi (3.14)= The circumference of the wheel
+</li>
+<li>The circumference of the wheel X the rpm of the shaft = the distance travelled per minute
+</li>
+<li>The distance travelled per minute X 60 = the distance travelled per hour.
+</li>
+</ul>
+
+<p>
+Remember, you can change the pulley diameters to change the rpm of the shaft. 
+Changing the diameters of the pulleys and wheels will have a big impact on the speed at which your racer will travel. If you have large wheels, it will have a high top speed, but it will start very slowly. This is because it will have less torque (power). The same applies to the pulley systems. You can adjust your pulley wheel system to suit you. 
+</p>
+</div>
+</div>
+<div id="outline-container-sec-1-2" class="outline-3 learn">
+<h3 id="sec-1-2">Wheel Choices&#x2026;</h3>
+<div class="outline-text-3" id="text-1-2">
+<ul class="org-ul">
+<li>The wheel diameter choices are: 70, 60, 50, 40 and 30mm
+</li>
+<li>The driven pulley diameter choices are: 56, 50, 44, 40 and 34mm
+</li>
+<li>The driver pulley cannot be changed, it is 6mm
 </li>
 </ul>
 </div>
 </div>
+<div id="outline-container-sec-1-3" class="outline-3 badge it">
+<h3 id="sec-1-3">Badge it - Silver</h3>
+<div class="outline-text-3" id="text-1-3">
+<p>
+Calculate the speed at which your racer will travel per hour using the following pulley wheel system. Make sure you show all your working out.
+</p>
+<ul class="org-ul">
+<li>Driver pulley: 6mm
+</li>
+<li>Driven Pulley: 40mm
+</li>
+<li>Wheel Diameter: 50mm
+</li>
+<li>Motor rpm: 5000rpm
+</li>
+</ul>
+</div>
+</div>
+</div>
 <div id="outline-container-sec-2" class="outline-2 activity">
-<h2 id="sec-2"><span class="section-number-2">2</span> Coming Soon!</h2>
+<h2 id="sec-2"><span class="section-number-2">2</span> Design</h2>
 <div class="outline-text-2" id="text-2">
 </div>
 <div id="outline-container-sec-2-1" class="outline-3 try">
-<h3 id="sec-2-1">Placeholder text&#x2026;</h3>
+<h3 id="sec-2-1">Techsoft 2D Designs</h3>
 <div class="outline-text-3" id="text-2-1">
-
-
+<ul class="org-ul">
+<li>Now go to the open drive at G:\Systems and Control\Year 9\5 - Drag Racer
+</li>
+<li>Select the Techsoft file 'Body template 200X300' open this document. This template has all the parts you need to complete the racer except for the wheels and the final driven pulley.
+</li>
+<li>You need to open the 'choose wheels' file and choose your front and rear wheels. You will need to copy one of each across and then make 3 copies of them each (you need 4 of each wheel).
+</li>
+<li>Now open the 'choose inner pulley' file and choose the diameter pulley you want and copy this across to your template.
+</li>
+<li>You should now have a complete racer. Sheets of MDF measuring 200mm x 300mm have been cut out for you. To ensure we make efficient use of material, you now need to team up with two peers and create a single 200mm X 300mm cutting sheet before you cut out your work with all your wheels and pulleys on them.
+</li>
+</ul>
 <p>
-<a href="index.html">Return to homepage</a>
+<img src="./img/w2img1.png" alt="w2img1.png" />
+<img src="./img/w2img2.png" alt="w2img2.png" />
+<img src="./img/w2img3.png" alt="w2img3.png" />
 </p>
+</div>
+</div>
+
+<div id="outline-container-sec-2-2" class="outline-3 badge it">
+<h3 id="sec-2-2">Badge it - Gold</h3>
+<div class="outline-text-3" id="text-2-2">
+<ul class="org-ul">
+<li>Upload your optimised Techsoft design having fitted all the wheels and pulleys on your 200X300 template
+</li>
+<li>Once you have cut out the pieces, upload a picture of your cut out pieces.
+</li>
+</ul>
 </div>
 </div>
 </div>

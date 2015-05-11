@@ -7,7 +7,7 @@
 #+END_COMMENT
 #+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
 #+TITLE: Pulleys
-#+AUTHOR: Stephen Brown
+#+AUTHOR: Clinton Delport
 
 #+BEGIN_HTML
 <div class=ribbon>
@@ -102,15 +102,59 @@ Imagine you wanted to make a flashing bike light; using an LED and a switch alon
 In a board game, you might want to have an electronic dice to roll numbers from 1 to 6 for you. 
 In a car, a circuit is needed to ensure that the airbags only deploy when there is a sudden change in speed, AND the passenger is wearing their seatbelt, AND the front or rear bumper has been struck. PIC chips can carry out their instructions very quickly, performing around 1000 instructions per second - as such, they can react far more quickly than a person can. 
 * Introduction
-- Pulleys will affect how quickly your racer can travel.
-* Coming Soon!
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-** Placeholder text...
+- The drag racer has a pulley system which drives the rear wheels from the electric motor. 
+** Calculating Speed
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try it
+:END:
+We can now look at the circumference of a wheel you could choose to calculate the speed at which your racer could travel. 
+ 
+- The diameter of the wheel X Pi (3.14)= The circumference of the wheel
+- The circumference of the wheel X the rpm of the shaft = the distance travelled per minute
+- The distance travelled per minute X 60 = the distance travelled per hour.
+
+Remember, you can change the pulley diameters to change the rpm of the shaft. 
+Changing the diameters of the pulleys and wheels will have a big impact on the speed at which your racer will travel. If you have large wheels, it will have a high top speed, but it will start very slowly. This is because it will have less torque (power). The same applies to the pulley systems. You can adjust your pulley wheel system to suit you. 
+** Wheel Choices...
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: learn
+:END:
+- The wheel diameter choices are: 70, 60, 50, 40 and 30mm
+- The driven pulley diameter choices are: 56, 50, 44, 40 and 34mm
+- The driver pulley cannot be changed, it is 6mm
+** Badge it - Silver
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: badge it 
+:END:
+Calculate the speed at which your racer will travel per hour using the following pulley wheel system. Make sure you show all your working out.
+- Driver pulley: 6mm
+- Driven Pulley: 40mm
+- Wheel Diameter: 50mm
+- Motor rpm: 5000rpm
+* Design
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+** Techsoft 2D Designs
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: try
+:END: 
+- Now go to the open drive at G:\Systems and Control\Year 9\5 - Drag Racer
+- Select the Techsoft file 'Body template 200X300' open this document. This template has all the parts you need to complete the racer except for the wheels and the final driven pulley.
+- You need to open the 'choose wheels' file and choose your front and rear wheels. You will need to copy one of each across and then make 3 copies of them each (you need 4 of each wheel).
+- Now open the 'choose inner pulley' file and choose the diameter pulley you want and copy this across to your template.
+- You should now have a complete racer. Sheets of MDF measuring 200mm x 300mm have been cut out for you. To ensure we make efficient use of material, you now need to team up with two peers and create a single 200mm X 300mm cutting sheet before you cut out your work with all your wheels and pulleys on them.
+[[./img/w2img1.png]]
+[[./img/w2img2.png]]
+[[./img/w2img3.png]]
+
+** Badge it - Gold
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: badge it 
 :END:
+- Upload your optimised Techsoft design having fitted all the wheels and pulleys on your 200X300 template
+- Once you have cut out the pieces, upload a picture of your cut out pieces.
 
-
-[[file:index.html][Return to homepage]]
