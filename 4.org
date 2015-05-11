@@ -177,9 +177,10 @@ Make sure you place the elastic band on while you are fitting the axle, or you w
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: build
 :END:
+- Mount the elastic band...
 [[./img/w4img35.jpg]]
-- Mount the elastic band
+- And fit the aerodynamic cover to test the fit.
 [[./img/w4img36.jpg]]
-- You will now take hoe the Drag racer body and decorate as you wish.
+- You will now take home the Drag racer body and decorate as you wish.
 
   
