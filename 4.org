@@ -6,8 +6,8 @@
 #+STYLE: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
 #+END_COMMENT
 #+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
-#+TITLE: The 555 Timer
-#+AUTHOR: Stephen Brown
+#+TITLE: Building the Drag Car
+#+AUTHOR: Clinton Delport
 
 #+BEGIN_HTML
 <div class=ribbon>
@@ -102,111 +102,84 @@ Imagine you wanted to make a flashing bike light; using an LED and a switch alon
 In a board game, you might want to have an electronic dice to roll numbers from 1 to 6 for you. 
 In a car, a circuit is needed to ensure that the airbags only deploy when there is a sudden change in speed, AND the passenger is wearing their seatbelt, AND the front or rear bumper has been struck. PIC chips can carry out their instructions very quickly, performing around 1000 instructions per second - as such, they can react far more quickly than a person can. 
 * Introduction
-- Designed in 1971, the 555 timer chip is the most successful integrated circuit in the world. Its purpose is to allow circuits to utilize time (e.g. to make a light flash on and off at a certain interval). 
-- It can be used as an ASTABLE timer to make flashing light circuits or to make a loudspeaker produce a sound and it can be used as a MONOSTABLE circuit to switch a device on after a set time or to switch a device on for a set time. The 555 makes it easy to get accurate time delays.
-
-- The 555 timer is an 8 pin DIL package containing 25 transistors, 2 diodes and 16 resistors. Its legs are configured as follows :-
-[[./img/555.png]]
-- 1. 0v 
-- 2. Trigger (start) 
-- 3. Output
-- 4. Reset
-- 5. Control voltage
-- 6. Threshold
-- 7. Discharge
-- 8. 4.5v-16v supply voltage
-
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-** 555 as a monostable
+- To be build a successful Drag racer, you will need the following parts.
+[[./img/w4img1.jpg]]
+** Wheels
 :PROPERTIES:
-:HTML_CONTAINER_CLASS: learn
+:HTML_CONTAINER_CLASS: build
 :END:
-A mono stable circuit has one input and one output. When the input is made high, the output goes high. When the input goes low, the output stays high for a set time period, then goes low. Astable circuits are easily recognised, and pins 6 and 7 are connected to the positive rail. 
-[[./img/mono_ex.png]]
-The time the output stays high can be calculated with…
-
-*T = 1.1 x R x C*
-
-e.g. a 1MΩ resistor and a 220µF capacitor…
-
-R= 1,000,000Ω
-C= 0.00022F
-T = 242 seconds.
-
-_Examples_ A door lock. When the release button is pushed, the door is unlocked for 3 seconds, then the locked again to give time to open the door. 
-
-A hand drier. When a hand triggers the sensor, the drier runs for around 30 seconds before turning off again.
-
-A Circuit Wizard example you can download to experiment with can be picked up [[./mono.cwz][here]].
-
-** 555 as an astable
+- building the wheels.
+[[./img/w4img2.jpg]]
+- Take the 2 pieces of 3mm threaded bar and the 8 sets of wheels (4 front and 4 back).
+- Put a nut on each side of the threaded bar, this will hold the first wheel in place.
+[[./img/w4img3.jpg]]
+- You now need to place a small amount of PVA glue on each wheel and then use the nuts to tighten them in place while the glue dries.
+[[./img/w4img4.jpg]]
+[[./img/w4img5.jpg]]
+[[./img/w4img6.jpg]]
+[[./img/w4img7.jpg]]
+** Pulleys
 :PROPERTIES:
-:HTML_CONTAINER_CLASS: learn
+:HTML_CONTAINER_CLASS: build
 :END:
-This circuit needs no trigger to start it. As soon as power is supplied the output will begin to oscillate between 9 volts and 0 volts. The time the output spends in each state depends on the values of R1 , R2 and C. The astable circuit can be made to oscillate very quickly (up to millions of cycles per sec) or slowly (down to many minutes per cycle). It can be used to make bulbs flash, drive a loudspeaker to produce a noise or be used as a counter/ timer.
-[[./img/ast_ex.png]]
-Astable circuits are easily recognised, and pins 2 and 6 are connected, and go to 0v. 
-[[./img/ast_graph.png]]
-
-*Mark time = 0.7 x (R_{1} + R_{2}) x C*
-
-*Space time = 0.7 x R_{2} x C*
-
-*Frequency = 1.44 / ((R_{1} + 2R_{2}) x C)*
-
-_Examples_ A tone generator could be made to produce sounds of different pitches through a speaker.
-
-A burglar alarm could have its sensors send a pulse to the alarm box to say its working. If the wire was cut, the lack of a pulse could be used to trigger the alarm.
-
-A strobe bike light could be produced to keep cyclists safe at night
-
-A Circuit Wizard example you can download to experiment with can be picked up [[./astable.cwz][here]].
-* Understanding Check
+- Assemble the driven pulley the same way as the wheels, place a small amount of PVA glue on the insideof the pulleys and then onto the threaded bar. Make sure you put the pulley in the middle of the 2 guides. 
+[[./img/w4img8.jpg]]
+[[./img/w4img9.jpg]]
+[[./img/w4img10.jpg]]
+** Motor mount and Rear Axle Mounts
 :PROPERTIES:
-:HTML_CONTAINER_CLASS: activity
+:HTML_CONTAINER_CLASS: build
 :END:
-** Sample Questions
+- Now put the motor together and rear axle mounts together.
+[[./img/w4img11.jpg]]
+[[./img/w4img12.jpg]]
+- Place the rear axle mounts in place and then put the lower level axle mounts with spacer and screw together. You will need to countersink the holes on the side of the screw head.
+[[./img/w4img13.jpg]]
+[[./img/w4img14.jpg]]
+[[./img/w4img15.jpg]]
+Make sure you place the elastic band on while you are fitting the axle, or you will need to take it apart at the end to fit it.
+[[./img/w4img17.png]]
+[[./img/w4img18.jpg]]
+- You need to put the driver pulley on first before mounting the motor. Make sure you put the back of the motor on the table when pushing on the pulley, this will prevent the back of the motor coming off.
+[[./img/w4img19.jpg]]
+- Now put a little bit of glue on the motor mounts and glue them in place with the motor in place. You can now put the cable tie on to secure the motor.
+[[./img/w4img20.jpg]]
+
+** Front Axle Mounts
 :PROPERTIES:
-:HTML_CONTAINER_CLASS: try
+:HTML_CONTAINER_CLASS: build
 :END:
-- At a small lighthouse, the keeper wants to make their lights come on for a few seconds, then off for a few seconds when the power is turned on to the main light. 
-	- What type of 555 circuit would be needed to achieve this?
-	- A 555 timer won’t be able to deliver sufficient power to turn on and off the main light. What could be used to handle such a large current safely?
-    - Make a simulation of this scenario on a breadboard, using an LED. Use a 220µF capacitor, 4.7kΩ for R1 and 10kΩ for R2. What would the mark and space values be?
-
-- A student is designing a doorbell with a PTM switch. When the button is pushed, the buzzer should sound for at least 3 seconds, no matter how long the button is held in place. 
-	- What type of 555 circuit is needed?
-    - If a 220µF (0.000220F) capacitor is used, what sized resistor (to the nearest hundred) would be needed to achieve a 3s time delay?
-    - Make a circuit for this setup on a breadboard.
-** Past Paper Questions
+- Follow the same process as the rear axle mount to mount the front axles mounts.
+[[./img/w4img21.jpg]]
+[[./img/w4img22.jpg]]
+[[./img/w4img23.jpg]]
+[[./img/w4img24.jpg]]
+[[./img/w4img25.jpg]]
+** Electrical connection
 :PROPERTIES:
-:HTML_CONTAINER_CLASS: try
+:HTML_CONTAINER_CLASS: build
 :END:
-*June 2010, Q4*. You are advised to spend about 30 minutes on this question. This question is about Printed Circuit Board (PCB) design and construction.
+- Mount the battery holder, with the wire pointing away from the motor.
+[[./img/w4img27.jpg]]
+[[./img/w4img28.jpg]]
+- You will need to mount the switch before soldering the wire, as the switch is mounted on the other side of the chassis.
+[[./img/w4img29.jpg]]
+[[./img/w4img30.jpg]]
+[[./img/w4img31.jpg]]
+- You can now solder the wires together. You will need a 10cm piece of black multi-strand wire.
+[[./img/w4img32.jpg]]
+- Finally, use some hot glue to neaten up the wiring (be careful not to burn yourself).
+[[./img/w4img33.jpg]]
+** Final Drive and Body
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: build
+:END:
+[[./img/w4img35.jpg]]
+- Mount the elastic band
+[[./img/w4img36.jpg]]
+- You will now take hoe the Drag racer body and decorate as you wish.
 
-(a) It is best to test that a circuit works before building a PCB. Describe one method of testing a circuit before building a PCB. /(3 marks)/
-(b) The circuit below pulses the speaker. Complete the missing five PCB tracks on Figure 2 for the circuit in Figure 1. The pads and some of the tracks have been completed for you. Your tracks should not cross at any point and should be drawn neatly.
-
-[[./img/circ1.png]]
-[[./img/pcb1.png]]
-
-*June 2013, Q3*. You are advised to spend about 15 minutes on this question. This question is about Printed Circuit Boards (PCBs).
-
-3 (a) Suggest two reasons for using a PCB in a commercial electronic product.
-Reason 1:
-Reason 2: /(4 marks)/
-
-3 (b) State two hazards and two relevant safety precautions to be taken when soldering components to a PCB.
-Hazard 1:
-Safety precaution 1:
-Hazard 2:
-Safety precaution 2: /(4 marks)/
-
-3 (c) Shown below is a circuit diagram for a commercial electronic product.
-[[./img/circ2.png]]
-Complete the PCB layout diagram below for the circuit shown above. The PCB layout is viewed from the component side. /(6 marks)/
-[[./img/pcb2.png]]
-
-[[file:index.html][Return to homepage]]
+  
