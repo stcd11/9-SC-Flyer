@@ -3,10 +3,15 @@
 #+HTML_HEAD_EXTRA: <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu' rel='stylesheet' type='text/css'>
 #+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil toc:nil
 #+TITLE: The Delport Flyer
-#+AUTHOR: Marc Scott
+#+AUTHOR: Clinton Delport
 
 #+BEGIN_HTML
-
+<div class=ribbon>
+<a href="https://github.com/stcd11/9-SC-Flyer">Fork me on GitHub</a>
+</div>
+<center>
+<imgzz src='' width=33%>
+</center>
 #+END_HTML
 
 * COMMENT Use as a template
@@ -150,6 +155,9 @@
 - The type of motor shown in the image above, is a brushed DC motor.
 - Use the web to find out what is meant by =DC=.
 - Use the web to find out what =brushes= in electric motors are for.
+#+BEGIN_HTML
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LAtPHANEfQo" frameborder="0" allowfullscreen></iframe>
+#+END_HTML
 ** Badge It - Platinum
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: badge
