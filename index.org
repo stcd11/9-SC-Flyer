@@ -40,3 +40,7 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
+* [[file:homework.html][Homework Tasks]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
