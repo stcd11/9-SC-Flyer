@@ -13,7 +13,7 @@
 
 #+BEGIN_HTML
 <div class=ribbon>
-<a href="https://github.com/stsb11/9-SC-Flyer">Fork me on GitHub</a>
+<a href="https://github.com/stcd11/9-SC-Flyer">Fork me on GitHub</a>
 </div>
 <center>
 <br>
