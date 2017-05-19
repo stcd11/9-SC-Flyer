@@ -146,7 +146,7 @@ Changing the diameters of the pulleys and wheels will have a big impact on the s
 :HTML_CONTAINER_CLASS: badge it 
 :END:
 Calculate the speed at which your racer will travel per hour using the following pulley wheel system. Make sure you show all your working out.
-- Driver pulley: 6mm
+- Driver pulley: 5mm
 - Driven Pulley: 40mm
 - Wheel Diameter: 50mm
 - Motor rpm: 5000rpm
