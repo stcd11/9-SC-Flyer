@@ -112,7 +112,7 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 :END:
 In order to calculate the speed the wheels will turn at, we need to calculate the pulley ratios and speeds. 
  
-- The input (drive) pulley diameter is 6mm and the motor (drive) speed is 5000rpm. 
+- The input (drive) pulley diameter is 5mm and the motor (drive) speed is 5000rpm. 
 - You will need to choose the driven pulley diameter from the list below, we are going to use 50mm in this example.
 - Velocity ratio (VR) = diameter of driven pulley / diameter of the drive pulley.
 - VR = 50 / 5
@@ -140,7 +140,7 @@ Changing the diameters of the pulleys and wheels will have a big impact on the s
 :END:
 - The wheel diameter choices are: 70, 60, 50, 40 and 30mm
 - The driven pulley diameter choices are: 56, 50, 44, 40 and 34mm
-- The driver pulley cannot be changed, it is 6mm
+- The driver pulley cannot be changed, it is 5mm
 ** Badge it - Silver
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: badge it 
