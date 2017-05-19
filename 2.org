@@ -106,6 +106,22 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 :HTML_CONTAINER_CLASS: activity
 :END:
 - The drag racer has a pulley system which drives the rear wheels from the electric motor. 
+** Pulley Ratios
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: try it
+:END:
+In order to calculate the speed the wheels will turn at, we need to calculate the pulley ratios and speeds. 
+ 
+- The input (drive) pulley diameter is 6mm and the motor (drive) speed is 5000rpm. 
+- You will need to choose the driven pulley diameter from the list below, we are going to use 50mm in this example.
+- Velocity ratio (VR) = diameter of driven pulley / diameter of the drive pulley.
+- VR = 50 / 5
+- = 10
+- The output speed = input speed / VR
+-                  = 5000 / 10
+-                  = 500rpm
+
+This driven pulley is connected directly to the drive wheel, therefore the wheel will be travelling at the same speed as the driven pulley. This can now be used in the speed calculations. 
 ** Calculating Speed
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: try it
@@ -113,7 +129,7 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 We can now look at the circumference of a wheel you could choose to calculate the speed at which your racer could travel. 
  
 - The diameter of the wheel X Pi (3.14)= The circumference of the wheel
-- The circumference of the wheel X the rpm of the shaft = the distance travelled per minute
+- The circumference of the wheel X the rpm of the shaft (this would be 500rpm in the example) = the distance travelled per minute
 - The distance travelled per minute X 60 = the distance travelled per hour.
 
 Remember, you can change the pulley diameters to change the rpm of the shaft. 
