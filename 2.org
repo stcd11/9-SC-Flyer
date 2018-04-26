@@ -161,7 +161,7 @@ Calculate the speed at which your racer will travel per hour using the following
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: try
 :END: 
-- Now go to the open drive at G:\Systems and Control\Year 9\5 - Drag Racer
+- Now go to the open drive at G:\Design Engineering\Year 9\5 - Drag Racer
 - Select the Techsoft file 'Body template 200X300' open this document. This template has all the parts you need to complete the racer except for the wheels and the final driven pulley.
 - You need to open the 'choose wheels' file and choose your front and rear wheels. You will need to copy one of each across and then make 3 copies of them each (you need 4 of each wheel).
 - Now open the 'choose inner pulley' file and choose the diameter pulley you want and copy this across to your template.
