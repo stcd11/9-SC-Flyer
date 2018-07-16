@@ -36,7 +36,11 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-* [[file:5.html][Lesson 05 - Testing and Evaluation]]
+* [[file:5.html][Lesson 05 - Testing]]
+:PROPERTIES:
+:HTML_CONTAINER_CLASS: activity
+:END:
+* [[file:evaluation.html][Lesson 06 - Evaluation]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
