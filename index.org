@@ -7,7 +7,7 @@
 #+END_COMMENT
 #+OPTIONS: f:nil author:nil num:1 creator:nil timestamp:nil 
 
-#+TITLE: The Delport Flyer
+#+TITLE: The BRM-e
 #+AUTHOR: Clinton Delport
 #+OPTIONS: toc:nil f:nil author:nil num:nil creator:nil timestamp:nil 
 
@@ -20,6 +20,8 @@
 <img src=img/flyer.png width=50%>
 </center>
 #+END_HTML
+Did you know a Formula 1 racing team came from Bourne. British Racing Motors (BRM) were based in Bourne.
+Click [[http://members.madasafish.com/~d_hodgkinson/brmplaces.htm][here]] to learn more about them. 
 * [[file:1.html][Lesson 01 - Electric Vehicles]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
