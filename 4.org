@@ -121,10 +121,7 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 [[./img/w4img5.jpg]]
 [[./img/w4img6.jpg]]
 [[./img/w4img7.jpg]]
-- The front wheel does not need gluing together.
-#+BEGIN_HTML
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qFo_DRuOyg4" frameborder="0" allowfullscreen></iframe>
-#+END_HTML
+- The front wheel does not need gluing together. There is a video on building the front axle below.
 ** Body
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: build
@@ -137,6 +134,9 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: build
 :END:
+#+BEGIN_HTML
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OgMZxtU8bVo" frameborder="0" allowfullscreen></iframe>
+#+END_HTML
 - You will now need to remove one of the rear wheels you glued earlier.
 [[./img/Rear_axle1.jpg]]
 - Then slide the axle through the axle mounts.
@@ -145,13 +145,13 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 [[./img/Rear_axle3.jpg]]
 - Now place the final rear wheel back on and secure the final nut.
 [[./img/Rear_axle_complete.jpg]]
-#+BEGIN_HTML
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OgMZxtU8bVo" frameborder="0" allowfullscreen></iframe>
-#+END_HTML
 ** Front Axle Mounts
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: build
 :END:
+#+BEGIN_HTML
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qFo_DRuOyg4" frameborder="0" allowfullscreen></iframe>
+#+END_HTML
 - The front axle follows a different process.
 - First, remove the 2 nuts previously put on the axles.
 - Now feed the axle through one side and place a nut on the one end.
@@ -167,6 +167,9 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: build
 :END:
+#+BEGIN_HTML
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Lvw-TiC8664" frameborder="0" allowfullscreen></iframe>
+#+END_HTML
 - Now put the motor together and mount it to the chassis.
 - First, you will need to solder the battery holder to the motor.
 [[./img/Soldering.jpg]]
@@ -185,7 +188,5 @@ In a car, a circuit is needed to ensure that the airbags only deploy when there 
 - And fit the aerodynamic cover to test the fit.
 [[./img/w4img36.jpg]]
 - You will now take home the Drag racer body and decorate as you wish.
-#+BEGIN_HTML
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Lvw-TiC8664" frameborder="0" allowfullscreen></iframe>
-#+END_HTML
+
   
